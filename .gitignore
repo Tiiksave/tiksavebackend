@@ -1,0 +1,13 @@
+﻿backend/__pycache__/
+backend/downloads/
+downloads/
+*.pyc
+*.log
+*.tmp
+*.bak
+*.backup
+backup/
+backup*/
+Cloudflare-Backup-*/
+backend-render-ready-*/
+frontend/**/*.bak

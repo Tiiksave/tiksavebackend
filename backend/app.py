@@ -1,4 +1,4 @@
-﻿from flask import Flask,request,jsonify,send_from_directory,send_file
+﻿from flask import Flask`r`nfrom flask_cors import CORS,request,jsonify,send_from_directory,send_file
 import yt_dlp,os,uuid,threading,glob
 
 BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -104,6 +104,7 @@ def file():
 
 if __name__=="__main__":
  app.run(host="0.0.0.0",port=int(os.environ.get("PORT","10000")),threaded=True,debug=False)
+
 
 
 
